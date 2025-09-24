@@ -1,16 +1,20 @@
-      .visually-hidden-focusable:focus {
-        position: static !important;
-        width: auto;
-        height: auto;
-        margin: 1rem;
-        padding: 0.5rem 1rem;
-        clip: auto;
-        overflow: visible;
-        white-space: normal;
-        background-color: #f8f9fa;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-      }
-      img {
-        border: 1px solid #ccc;
-      }
+/* Accessible skip link */
+.visually-hidden-focusable:focus {
+  position: static !important;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  clip: auto;
+  overflow: visible;
+  white-space: normal;
+  color: #000;
+  background-color: #fdfcf9;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+img {
+    border: 1px solid #ccc;
+}
