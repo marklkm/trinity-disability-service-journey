@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Trinity disAbility Service Journey 1995-2024 - Full Flipbook</title>
+    <title>Trinity disAbility Service Journey 1995-2024</title>
     <link rel="shortcut icon" href="favicon_io/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
 
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="text-dark" style="background-color: #fdfcf9">
+  <body class="text-dark" style="background-color: #fdfcf9" id="top">
     <!-- Skip link for keyboard users -->
     <a
       href="#main-content"
@@ -29,7 +29,7 @@
           class="img-fluid mb-3"
           style="max-height: 150px"
         />
-        <h1 class="h2">Trinity disAbility Service Journey 1995–2024</h1>
+        <h1 class="h2">Trinity disAbility Service Journey 1995-2024</h1>
         <p class="lead">
           This commemorative publication celebrates 25 years of the Trinity
           disAbility Service at Trinity College Dublin. From its beginnings in a
@@ -40,7 +40,7 @@
         <p class="lead">
           Featuring personal reflections, landmark achievements, and student-led
           innovation, the timeline captures Trinity's commitment to access,
-          belonging, and empowerment. It also introduces the bold 2025–2030
+          belonging, and empowerment. It also introduces the bold 2025-2030
           Action Plan focused on universal access, sustainability, and inclusive
           leadership.
         </p>
@@ -487,8 +487,29 @@
       </article>
     </main>
 
+    <!-- Back to Top button -->
+    <div class="text-center my-4">
+      <a href="#top" class="btn btn-dark" id="back-to-top">Back to Top</a>
+    </div>
+
     <footer class="bg-white text-center text-muted py-3 border-top">
       <small>&copy; 2024 Trinity disAbility Service</small>
     </footer>
+
+    <footer class="bg-white text-center text-muted py-3 border-top">
+      <small>&copy; 2024 Trinity disAbility Service</small>
+    </footer>
+
+    <script>
+      const backToTopBtn = document.getElementById("back-to-top");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          backToTopBtn.classList.add("show");
+        } else {
+          backToTopBtn.classList.remove("show");
+        }
+      });
+    </script>
   </body>
 </html>
